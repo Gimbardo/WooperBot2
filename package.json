@@ -1,0 +1,28 @@
+{
+  "name": "wooperbot2",
+  "version": "1.0.0",
+  "description": "Just Like WooperBot, but better",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gimbardo/WooperBot2.git"
+  },
+  "author": "Gimbaro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gimbardo/WooperBot2/issues"
+  },
+  "homepage": "https://github.com/Gimbardo/WooperBot2#readme",
+  "keywords": [
+    "discord-bot"
+  ],
+  "dependencies": {
+    "@discordjs/builders": "^0.12.0",
+    "@discordjs/rest": "^0.3.0",
+    "discord-api-types": "^0.27.2",
+    "discord.js": "^13.6.0"
+  }
+}
