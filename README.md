@@ -1,2 +1,2 @@
 # WooperBot2
-WooperBot, but better
+[WooperBot](https://github.com/Gimbardo/WooperBot), but better
