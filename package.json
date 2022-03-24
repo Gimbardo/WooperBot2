@@ -25,5 +25,6 @@
     "custom-env": "^2.0.1",
     "discord-api-types": "^0.27.2",
     "discord.js": "^13.6.0"
-  }
+  },
+  "heroku-run-build-script": true
 }
