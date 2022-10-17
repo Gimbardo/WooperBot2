@@ -21,6 +21,7 @@ for (const file of commandFiles) {
 // When the client is ready, run this code (only once)
 client.once('ready', () => {
 	console.log('Ready!');
+	client.user.setActivity("PORN", { type: "WATCHING"})
 });
 
 client.on('interactionCreate', async interaction => {
