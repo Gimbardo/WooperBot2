@@ -10,7 +10,7 @@ function random(){
 }
 
 function pokemon_with_id(pokedex_id){
-	return GDrivePokemon.getLinkWithNameThatStartsWith(pokedex_id)
+	return GDrivePokemon.getLinkWithIndex(pokedex_id)
 }
 
 module.exports = {
@@ -20,7 +20,7 @@ module.exports = {
     	.addIntegerOption(option => option.setName('pokedex_id').setDescription('id on the national pokedex')),
 	async execute(interaction) {
 		let pokedex_id = interaction.options.getInteger('pokedex_id')
-		if(pokedex_id != null)
+		if(pokedex_id === null)
 			await interaction.reply(random());
 		else
 			await interaction.reply(pokemon_with_id(pokedex_id-1));
